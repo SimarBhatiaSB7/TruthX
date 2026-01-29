@@ -2,3 +2,11 @@ TruthX-model/
 *.bin
 *.pt
 *.safetensors
+
+# Model weights (do not commit)
+TruthX-model/
+offload_weights/
+*.bin
+*.pt
+*.safetensors
+*.dat
