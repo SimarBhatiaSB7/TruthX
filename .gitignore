@@ -10,3 +10,14 @@ offload_weights/
 *.pt
 *.safetensors
 *.dat
+
+# External dependencies
+FastChat/
+
+# Model weights
+offload_weights/
+TruthX-model/
+*.dat
+*.bin
+*.pt
+*.safetensors
