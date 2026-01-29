@@ -1,0 +1,4 @@
+TruthX-model/
+*.bin
+*.pt
+*.safetensors
