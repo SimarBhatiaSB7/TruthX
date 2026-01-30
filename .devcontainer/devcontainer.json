@@ -5,7 +5,7 @@
     },
     "runArgs": [
         "--gpus", "all",
-        "--shm-size", "8gb" 
+        "--shm-size", "8gb"
     ],
     "customizations": {
         "vscode": {
@@ -15,5 +15,5 @@
             ]
         }
     },
-    "postCreateCommand": "cd transformers && pip install -e . && cd ../FastChat && pip install -e ."
+    "postCreateCommand": "cd /workspaces/TruthX/transformers && pip install -e . && cd /workspaces/TruthX && [ ! -d FastChat ] && git clone https://github.com/lm-sys/FastChat.git || true && cd FastChat && pip install -e ."
 }
